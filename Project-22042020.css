@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    position: sticky;
+    top: 0;
+    height: 104px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 20px;
+}
+
+#navbarResponsiveContent {   
+    position: relative;
+    margin-right: 190px;
+    width: 30vw;
+    float: right;
+}
+
+a.navbar-brand {
+    margin-left: 190px;
+    font-size: 28px;
+}
+
+
+div.jumbotron.jumbotron-fluid {
+    padding-top: 180px;
+    padding-bottom: 70px;
+    background: #1ABC9C;
+    height: 800px;
+    text-align: center;
+}
+
+div.jumbotron.jumbotron-fluid h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: white;
+}
+
+p.workspace {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 24px;;
+}
+
+.fas.fa-star {
+    color: white;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.starzwei i {
+    color: #2C3E50; 
+    padding: 0;
+    margin-left: -70px;
+}
+
+.portfolioheading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.bildreihezwei {
+    padding-bottom: 50px;
+}
+
+div.jumbotron.jumbotron-fluid.footer {
+font-family: 'Lato', sans-serif;
+height: 440px;
+background: #2C3E50;
+color: white;
+text-align: center;
+
+}
+
+.footer h4 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer p {
+    font-size: 20px;
+}
+
+span {
+    color: #1ABC9C;
+    font-size: 20px;
+}
+
+i {
+    padding: 6px 12px;
+    color: white;
+    display: inline-block;
+    margin-left: -2px;
+}
+
+.btn-outline-light {
+    width: 60px;
+    height: 60px;
+    border-radius: 200px;
+    color: #fff;
+    margin: 0px 4px;
+    padding: 6px 12px;
+}
+
+.about {
+    height: 610px;
+    position: relative;
+    text-align: center;  
+}
+
+.row.about {
+    justify-content: center;
+    height: 169px;
+    /* margin-left: auto; margin-right: auto; text-align: center; */
+    text-align: center;
+    width: 1110px;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.jumbotron.about {
+    background-color: #1ABC9C;
+}
+
+div.container.about {
+    height: 410px;
+    position: relative;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
+div.about>h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: -15px;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+.downloadbutton{
+    font-family: 'Lato', sans-serif;
+    margin-top: 40px;
+    padding-top: 100px;
+    padding: 20px;
+    width: 280px;
+    height: 120px;
+}
+
+.fa-download:before {
+    padding-right: 15px;
+}
+
+.abouttext {
+    display: block;
+    padding: 0px 24px;
+    text-align: left;
+    color: white;
+}
+
+.downloadbutton {
+    font-family: fantasy;
+    display: flex;
+    width: 1110px;
+    justify-content: center;
+    text-align: center;
+    background-color: none;
+}
+
+.downloadtext {
+    background: #1ABC9C;
+    border-color: white;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.spalt {
+    display: block;
+    width: 100vw;
+    height: 30px;
+    
+}
+
+
+
+
+/* BEGIN CONTACT */
+
+.container-contact100 {
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .container-contact100::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(173,173,173,0.4);
+    pointer-events: none;
+  }
+  
+  .contact100-map {
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .wrap-contact100 {
+    width: 800px;
+    background: #fff;
+    border-radius: 1px;
+    position: relative;
+    margin-top: 55px;
+    padding: 92px 70px 88px 70px;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .contact100-form-symbol {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #e7e7e7;
+    border-radius: 100%;
+    background: #fff;
+    top: -55px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .contact100-form-symbol img {
+    max-width: 80px;
+    border-radius: 80%;
+    margin-top: 5px;
+    margin-left: -1px;
+  }
+    
+  .contact100-form {
+    width: 100%;
+  }
+  
+  .contact100-form-title {
+    width: 100%;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #333333;
+    line-height: 1.8;
+    text-align: center;
+    padding-bottom: 43px;
+  }
+  
+  
+  .wrap-input100 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    border-radius: 1px;
+    margin-bottom: 30px;
+  }
+  
+  .wrap-input100.rs1 {
+    width: calc((100% - 10px) / 1);
+  }
+
+  .input100 {
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    line-height: 1.2;
+  }
+  
+  input.input100 {
+    height: 60px;
+    padding: 0 20px 0 25px;
+    font-size: 20px;
+  }
+  
+  textarea.input100 {
+    min-height: 199px;
+    padding: 25px 20px 15px 25px;
+    font-size: 15px;
+  }
+
+  .contact100-form-btn {
+      padding: 20px;
+      width: 200px;
+      margin-left: 230px;
+      margin-top: 30px;
+      color: white;
+      font-family: 'Lato', sans-serif;
+      font-weight: bold;
+      border: 1px solid white;
+  }
+
+/* END CONTACT */
+
+
+
+/* START COPYRIGHT */
+div.jumbotron.jumbotron-fluid.copyright {
+    display: flex;
+    height: 72px;
+    margin: 0;
+    padding: 0;
+    background-color: #1A252F;
+}
+
+div.jumbotron.jumbotron-fluid.copyright p{
+    font-family: 'Lato', sans-serif;
+    font-size: 12.8px;
+    color: white;
+}
+
+div.col-md-12 p {
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+}
+
+/* ENDE COYPRIGHT */
